@@ -24,4 +24,12 @@ app.get('/guess/:number', function(req, resp) {
     resp.send({ result: CodeBreaker.guess(number) })
 });
 
+app.get('/upgrade/', function(req, resp) {
+    resp.send({ result: CodeBreaker.guess(number) })
+});
+
+app.get('/delete/', function(req, resp) {
+    resp.send({ result: CodeBreaker.guess(number) })
+});
+
 module.exports = app;
