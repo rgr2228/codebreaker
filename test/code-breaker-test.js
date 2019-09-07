@@ -12,7 +12,7 @@ describe('CodeBreaker', function() {
     });
     it('should return EMPTY if 5678 is sended', function() {
         let result = CodeBreaker.guess(5678);
-        assert.equal('X', result); //HERE
+        assert.equal('', result);
     });
 
     it('should return _ if 4567 is sended', function() {
